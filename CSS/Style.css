@@ -19,51 +19,149 @@
 }
 #variedades{
     margin: 20px;
-    gap: 20px;
+    padding: 10px;
+    gap: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: white;
-}
-#map .mapa{
-    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: beige;
     height: auto;
+
 }
+
+
 #map{
     margin: 20px;
     gap: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+#map .mapa{
+    width: 100%;
+    height: auto;
+}
 #variedades .tipoimg img{
     width: 100%;
     height: auto;
 
 }
-
+#oferta .tipoimg img{
+    width: 100%;
+    height: auto;
+}
 #variedades .tipotxt{
-    padding: 30px;
+    padding: 10px;
 }
 #variedades .tipotxt h2{
     color: red;
 
 }
-#map .info{
-    padding: 30px;
+
+#tituOferta{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: red;
+    margin: 10px;
 }
-#map .info p{
+#oferta{
+    width: 80%;
+    height: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 20px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+#oferta .tipoimg{
+    padding: 5px;
+    background-color: beige;
+}
+.Par{
     color: white;
+    padding: 10px;
 }
-#map .info h2{
+.Titu{
     color: red;
 
 }
 
+footer{
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    background-color:rgb(2, 2, 24);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.foot h4{
+    color: rgb(255, 255, 255);
+}
+.foot ul{
+    list-style-type: none;
+}
+
+.pie{
+    color: rgba(255, 255, 255, 0.616);
+    text-decoration: none;
+
+}
+
+#icono img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: antiquewhite;
+    
+}
+#conticon{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
 @media (max-width: 767px){
     #variedades{
         grid-template-columns: 1fr;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     #map{
         grid-template-columns: 1fr;
     }
+    #oferta{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        grid-template-columns: 1fr;
 
+    }
+
+}
+
+#note{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#note div p{
+    color: beige;
+    text-align: center;
+}
+
+
+#tituOferta div h2{
+    color: white;
+    text-align: center;
+}
+#tituOferta 
+.cuenta{
+    display: block;
+    color: white;
+    padding: 5px;
+}
+#icono{
+    display: grid;
+    grid-template-columns: 8% auto;
 }
