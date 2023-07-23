@@ -1,0 +1,36 @@
+
+#oferta .tipoimg img{
+    width: 100%;
+    height: auto;
+}
+
+#tituOferta{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: red;
+    margin: 10px;
+    animation-name: leter;
+    position: relative;
+    animation-duration: 3s;
+}
+
+#oferta{
+    width: 80%;
+    height: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 20px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+#oferta .tipoimg{
+    padding: 5px;
+    background-color: beige;
+}
+#tituOferta div h2{
+    color: white;
+    text-align: center;
+}
+

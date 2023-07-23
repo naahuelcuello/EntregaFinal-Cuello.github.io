@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+@import 'animation';
+@import'formulario';
+@import 'footer';
+@import 'nosotros';
+@import 'variedades';
+@import 'ofertas';
+.fondo {
+    background-color: rgb(4, 4, 59);
+}
+#log{
+    height: 75px;
+}
+.bg-propio{
+    background-color: black;
+}
+.tcolor{
+    color: red;
+}
+#note{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    animation-name: note;
+    animation-duration: 3s;
+}
+.Par{
+    color: white;
+    padding: 10px;
+}
+.Titu{
+    color: red;
+}
+#note div p{
+    color: beige;
+    text-align: center;
+}

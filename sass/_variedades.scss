@@ -1,0 +1,21 @@
+#variedades{
+    margin: 20px;
+    padding: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: beige;
+    height: auto;
+
+}
+#variedades .tipoimg img{
+    width: 100%;
+    height: auto;
+}
+#variedades .tipotxt{
+    padding: 10px;
+}
+#variedades .tipotxt h2{
+    color: red;
+
+}

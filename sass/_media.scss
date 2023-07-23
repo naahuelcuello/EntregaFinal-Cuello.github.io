@@ -1,0 +1,17 @@
+@media (max-width: 767px){
+    #variedades{
+        grid-template-columns: 1fr;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #map{
+        grid-template-columns: 1fr;
+    }
+    #oferta{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        grid-template-columns: 1fr;
+
+    }
+}
