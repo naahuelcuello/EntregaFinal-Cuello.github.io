@@ -5,6 +5,14 @@
   font-family: "Raleway", sans-serif;
 }
 
+.fondo {
+  background-color: rgb(4, 4, 59);
+}
+
+.bg-propio {
+  background-color: black;
+}
+
 @keyframes note {
   0% {
     left: -100%;
@@ -13,170 +21,6 @@
     left: 0%;
   }
 }
-.fondo {
-  background-color: rgb(4, 4, 59);
-}
-
-#log {
-  height: 75px;
-}
-
-.bg-propio {
-  background-color: black;
-}
-
-.tcolor {
-  color: red;
-}
-
-#variedades {
-  margin: 20px;
-  padding: 10px;
-  gap: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: beige;
-  height: auto;
-}
-
-#map {
-  margin: 20px;
-  gap: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#map .mapa {
-  width: 100%;
-  height: auto;
-}
-
-#variedades .tipoimg img {
-  width: 100%;
-  height: auto;
-}
-
-#oferta .tipoimg img {
-  width: 100%;
-  height: auto;
-}
-
-#variedades .tipotxt {
-  padding: 10px;
-}
-
-#variedades .tipotxt h2 {
-  color: red;
-}
-
-#tituOferta {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: red;
-  margin: 10px;
-  animation-name: leter;
-  position: relative;
-  animation-duration: 3s;
-}
-
-#note {
-  background-color: gray;
-  display: grid;
-  grid-template-columns: 1fr;
-  position: relative;
-  animation-name: note;
-  animation-duration: 3s;
-}
-
-#oferta {
-  width: 80%;
-  height: auto;
-  margin-right: 10%;
-  margin-left: 10%;
-  padding: 20px;
-  gap: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-#oferta .tipoimg {
-  padding: 5px;
-  background-color: beige;
-}
-
-.Par {
-  color: white;
-  padding: 10px;
-}
-
-.Titu {
-  color: red;
-}
-
-footer {
-  padding: 10px;
-  width: 100%;
-  height: auto;
-  background-color: #020218;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.foot h4 {
-  color: rgb(255, 255, 255);
-}
-
-.foot ul {
-  list-style-type: none;
-}
-
-.pie {
-  color: rgba(255, 255, 255, 0.616);
-  text-decoration: none;
-}
-
-#icono img {
-  width: 30px;
-  height: 30px;
-  padding: 5px;
-  background-color: antiquewhite;
-}
-
-#conticon {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  gap: 5px;
-}
-
-@media (max-width: 767px) {
-  #variedades {
-    grid-template-columns: 1fr;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  #map {
-    grid-template-columns: 1fr;
-  }
-  #oferta {
-    grid-template-columns: 1fr;
-  }
-  footer {
-    grid-template-columns: 1fr;
-  }
-}
-#note div p {
-  color: beige;
-  text-align: center;
-}
-
-#tituOferta div h2 {
-  color: white;
-  text-align: center;
-}
-span{
-  color: red;
-}
-
 @keyframes leter {
   0% {
     left: -80%;
@@ -185,17 +29,6 @@ span{
     left: 0%;
   }
 }
-#tituOferta .cuenta {
-  display: block;
-  color: white;
-  padding: 5px;
-}
-
-#icono {
-  display: grid;
-  grid-template-columns: 8% auto;
-}
-
 /*reserva*/
 .contReserva {
   height: auto;
@@ -231,4 +64,161 @@ span{
   border-radius: 10px;
   background-color: rgb(0, 38, 255);
   color: wheat;
+}
+
+footer {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  background-color: #020218;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.foot h4 {
+  color: rgb(255, 255, 255);
+}
+.foot ul {
+  list-style-type: none;
+}
+
+.pie {
+  color: rgba(255, 255, 255, 0.616);
+  text-decoration: none;
+}
+
+#icono {
+  display: grid;
+  grid-template-columns: 8% auto;
+}
+#icono img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background-color: antiquewhite;
+}
+
+#log {
+  height: 75px;
+}
+
+#map {
+  margin: 20px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#map .mapa {
+  width: 100%;
+  height: auto;
+}
+
+.Par {
+  color: white;
+  padding: 10px;
+}
+
+#variedades {
+  margin: 20px;
+  padding: 10px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: beige;
+  height: auto;
+}
+#variedades .tipoimg img {
+  width: 100%;
+  height: auto;
+}
+#variedades .tipotxt {
+  padding: 10px;
+}
+#variedades .tipotxt h2 {
+  color: red;
+}
+
+#oferta {
+  width: 80%;
+  height: auto;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 20px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#oferta .tipoimg {
+  padding: 5px;
+  background-color: beige;
+}
+#oferta .tipoimg img {
+  width: 100%;
+  height: auto;
+}
+
+#tituOferta {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: red;
+  margin: 10px;
+  animation-name: leter;
+  position: relative;
+  animation-duration: 3s;
+}
+#tituOferta div h2 {
+  color: white;
+  text-align: center;
+}
+
+#banner {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  margin-left: 25%;
+}
+#banner img {
+  padding-top: 3%;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  #variedades {
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #map {
+    grid-template-columns: 1fr;
+  }
+  #oferta {
+    grid-template-columns: 1fr;
+  }
+  footer {
+    grid-template-columns: 1fr;
+  }
+  #banner {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    margin-left: 15%;
+  }
+  #banner img {
+    padding-top: 3%;
+    width: 100%;
+    height: auto;
+  }
+}
+#note {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  animation-name: note;
+  animation-duration: 3s;
+}
+#note div p {
+  color: beige;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

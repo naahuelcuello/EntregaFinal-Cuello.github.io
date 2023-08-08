@@ -7,32 +7,30 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
 
 }
-
-.foot h4{
-    color: rgb(255, 255, 255);
+.foot{
+    h4{
+        color: rgb(255, 255, 255);   
+    }
+    ul{
+        list-style-type: none;
+    };
 }
-.foot ul{
-    list-style-type: none;
-}
-
 .pie{
     color: rgba(255, 255, 255, 0.616);
     text-decoration: none;
 
 }
-#icono img {
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    background-color: antiquewhite;
-    
-}
-#conticon{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 5px;
-}
+
 #icono{
     display: grid;
     grid-template-columns: 8% auto;
+    img{
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        background-color: antiquewhite;
+    }
+}
+#log{
+    height: 75px;
 }

@@ -6,16 +6,18 @@
     grid-template-columns: 1fr 1fr 1fr;
     background-color: beige;
     height: auto;
+    .tipoimg{
+        img{
+            width: 100%;
+            height: auto; 
+        }
+    }
+    .tipotxt{
+        padding: 10px;
+        h2{
+            color: red;
+        }
+    }
 
 }
-#variedades .tipoimg img{
-    width: 100%;
-    height: auto;
-}
-#variedades .tipotxt{
-    padding: 10px;
-}
-#variedades .tipotxt h2{
-    color: red;
 
-}

@@ -1,19 +1,4 @@
 
-#oferta .tipoimg img{
-    width: 100%;
-    height: auto;
-}
-
-#tituOferta{
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: red;
-    margin: 10px;
-    animation-name: leter;
-    position: relative;
-    animation-duration: 3s;
-}
-
 #oferta{
     width: 80%;
     height: auto;
@@ -23,14 +8,40 @@
     gap: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    .tipoimg{
+        padding: 5px;
+        background-color: beige;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }   
 }
-#oferta .tipoimg{
-    padding: 5px;
-    background-color: beige;
-}
-#tituOferta div h2{
-    color: white;
-    text-align: center;
+#tituOferta{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: red;
+    margin: 10px;
+    animation-name: leter;
+    position: relative;
+    animation-duration: 3s;
+    div{
+        h2{
+            color: white;
+            text-align: center;
+        }
+    }
 }
 
+#banner{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin-left: 25%;
+    img{
+        padding-top:3% ;
+        width: 100%;
+        height: auto;
+    }
+
+}

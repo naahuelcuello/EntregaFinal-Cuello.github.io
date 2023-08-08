@@ -1,0 +1,17 @@
+@mixin not($bgc, $dsp, $gtc, $pos, $aname, $adur){
+    background-color: $bgc;
+    display: $dsp;
+    grid-template-columns: $gtc;
+    position: $pos;
+    animation-name: $aname;
+    animation-duration: $adur;
+}
+#note{
+    @include not(gray, grid, 1fr, relative, note, 3s);
+    div{
+        p{
+            color: beige;
+            text-align: center;  
+        }
+    }
+}
